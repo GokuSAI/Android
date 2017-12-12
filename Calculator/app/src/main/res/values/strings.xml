@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cal-jerin</string>
+    <string name="button">7</string>
+    <string name="button2">8</string>
+    <string name="button3">9</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button7">1</string>
+    <string name="button8">2</string>
+    <string name="button9">3</string>
+    <string name="button10">.</string>
+    <string name="button11">0</string>
+    <string name="button12">=</string>
+    <string name="button13">/</string>
+    <string name="button15">X</string>
+    <string name="button14">-</string>
+    <string name="button16">+</string>
+    <string name="button17">AC</string>
+    <string name="divideby0">cannot divide by 0</string>
+</resources>
