@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Music Search</string>
+    <string name="searchMusic">Search Music</string>
+    <string name="search">Search</string>
+    <string name="favorites">Favorites</string>
+    <string name="results">Results</string>
+    <string name="name">Name:</string>
+    <string name="artist">Artist:</string>
+    <string name="url">URL:</string>
+    <string name="similarTracks">Similar Tracks</string>
+</resources>
