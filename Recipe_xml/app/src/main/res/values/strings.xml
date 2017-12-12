@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Recipe Puppy</string>
+    <string name="finish">Finish</string>
+    <string name="Dish">Dish</string>
+    <string name="DishText" />
+    <string name="Sub">Add Ingredients</string>
+    <string name="SearchButton">Search</string>
+    <string name="loading">Loading...</string>
+    <string name="TitleTextView">Title:</string>
+</resources>
