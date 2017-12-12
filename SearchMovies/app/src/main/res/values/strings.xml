@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SearchMovies</string>
+    <string name="HeadingText">Search Movies</string>
+    <string name="SearchEditText" />
+    <string name="SearchButton">Search</string>
+    <string name="Heading2TextView">Results</string>
+    <string name="Title">Title:</string>
+    <string name="Overview">Overview:</string>
+    <string name="ReleaseDate">Release Date:</string>
+    <string name="T_Title" />
+    <string name="T_Overview" />
+    <string name="T_ReleaseDate" />
+    <string name="Rating">Rating:</string>
+    <string name="T_Rating" />
+    <string name="Favorites" >Favorites</string>
+</resources>
