@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saikrishna.contacts.MainActivity">
+
+    <Button
+        android:id="@+id/Createm"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/Createm" />
+
+    <Button
+        android:id="@+id/Editm"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/Editm"
+        android:layout_below="@+id/Createm"
+        android:layout_alignStart="@+id/Createm" />
+
+    <Button
+        android:id="@+id/Deletem"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="@string/Deletem"
+        android:layout_below="@+id/Editm"
+        android:layout_alignStart="@+id/Editm" />
+
+    <Button
+        android:id="@+id/Displaym"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="@string/Displaym"
+        android:layout_below="@+id/Deletem"
+        android:layout_alignStart="@+id/Deletem" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/Finishm"
+        android:layout_below="@+id/Displaym"
+        android:layout_alignStart="@+id/Displaym" />
+</RelativeLayout>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.saikrishna.contacts.FinalRes"
+        android:padding="10dp">
+
+
+
+        <ImageView
+            android:id="@+id/imageViewFinal"
+            android:layout_width="1500dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/add_photo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp" />
+
+
+        <TextView
+            android:id="@+id/First"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_below="@+id/imageViewFinal"
+            android:inputType="textPersonName"
+            android:text="@string/fNameHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/FirstT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/First"/>
+
+        <TextView
+            android:id="@+id/Last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/First"
+            android:layout_below="@+id/FirstT"
+            android:inputType="textPersonName"
+            android:text="@string/lNameHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/LastT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/Last"/>
+
+        <TextView
+            android:id="@+id/Company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/LastT"
+            android:inputType="textPersonName"
+            android:text="@string/companyHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CompanyT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/Company"/>
+
+        <TextView
+            android:id="@+id/Phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/CompanyT"
+            android:inputType="textPersonName"
+            android:text="@string/phoneHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PhoneT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/Phone"/>
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PhoneT"
+            android:inputType="textPersonName"
+            android:text="@string/emailHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/EmailT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/Email"
+            android:autoLink="email"/>
+
+        <TextView
+            android:id="@+id/URL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/EmailT"
+            android:inputType="textPersonName"
+            android:text="@string/urlHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/URLT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/URL"
+            android:autoLink="web"/>
+
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/URLT"
+            android:inputType="textPersonName"
+            android:text="@string/adressHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AddressT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/Address"/>
+
+        <TextView
+            android:id="@+id/Birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AddressT"
+            android:inputType="textPersonName"
+            android:text="@string/birthdayHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/BirthdayT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/Birthday"/>
+
+        <TextView
+            android:id="@+id/Nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/BirthdayT"
+            android:inputType="textPersonName"
+            android:text="@string/nicknameHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/NicknameT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/Nickname"/>
+
+        <TextView
+            android:id="@+id/FacebookProfileURL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NicknameT"
+            android:inputType="textPersonName"
+            android:text="@string/fburlHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/FacebookProfileURLT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/FacebookProfileURL"
+            android:autoLink="web"/>
+
+        <TextView
+            android:id="@+id/TwitterProfileURL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FacebookProfileURLT"
+            android:inputType="textPersonName"
+            android:text="@string/twitterurlHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TwitterProfileURLT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/TwitterProfileURL"
+            android:autoLink="web"/>
+
+        <TextView
+            android:id="@+id/Skype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TwitterProfileURLT"
+            android:inputType="textPersonName"
+            android:text="@string/skypeHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SkypeT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/Skype"
+            android:autoLink="web"/>
+
+        <TextView
+            android:id="@+id/YouTubeChannel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/SkypeT"
+            android:inputType="textPersonName"
+            android:text="@string/youtubechannelHint"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/YouTubeChannelT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/YouTubeChannel"
+            android:autoLink="web"/>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saikrishna.contacts.EditContacts">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <ImageView
+            android:id="@+id/_imageView"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/add_photo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+
+        <EditText
+            android:id="@+id/_fName"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/_imageView"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/fNameHint"
+            android:inputType="textPersonName"
+            android:text="@string/fName" />
+
+
+        <EditText
+            android:id="@+id/_lName"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/_fName"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/lNameHint"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:text="@string/lName" />
+
+
+        <EditText
+            android:id="@+id/_Company"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/companyHint"
+            android:layout_below="@+id/_lName"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/_Phone"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/phoneHint"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/_Company"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Phone" />
+
+        <EditText
+            android:id="@+id/_Email"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/emailHint"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/_Phone"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Email" />
+
+        <EditText
+            android:id="@+id/_URL"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/urlHint"
+            android:layout_below="@+id/_Email"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/URL" />
+
+        <EditText
+            android:id="@+id/_Adress"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/adressHint"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/_URL"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Adress" />
+
+        <EditText
+            android:id="@+id/_Birthday"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/birthdayHint"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/_Adress"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Birthday" />
+
+
+        <EditText
+            android:id="@+id/_NickName"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/nicknameHint"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/_Birthday"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/NickName" />
+
+        <EditText
+            android:id="@+id/_fbURL"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/fburlHint"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/_NickName"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/fbURL" />
+
+        <EditText
+            android:id="@+id/_TwitterURL"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/twitterurlHint"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/_fbURL"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/TwitterURL" />
+
+        <EditText
+            android:id="@+id/_Skype"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/skypeHint"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/_TwitterURL"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Skype" />
+
+        <EditText
+            android:id="@+id/_Youtube"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/youtubechannelHint"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/_Skype"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/Youtube" />
+
+        <Button
+            android:id="@+id/e_Save"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/_Youtube"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/Save"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+</ScrollView>
