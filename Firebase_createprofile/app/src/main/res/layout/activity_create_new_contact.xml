@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saikrishna.inclass10.CreateNewContact">
+
+
+    <EditText
+        android:id="@+id/CreatePhoneEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CreateEmailEdittext"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/CreateEmailEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DeptHeading"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+        <ImageView
+            android:id="@+id/dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/select_avatar"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/DeptHeading"
+            android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/DeptHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioGroup"
+        android:layout_alignParentStart="true"
+        android:text="Department"
+        android:textSize="25sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="29dp"
+            android:layout_marginStart="29dp"
+            android:layout_above="@+id/SubmitButton"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="17dp">
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="SIS" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="CS" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="BIO" />
+        </RadioGroup>
+
+    <Button
+            android:id="@+id/SubmitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/DeptHeading" />
+
+    <EditText
+        android:id="@+id/CreateNameEdittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CreatePhoneEditText"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+
+</RelativeLayout>
+
+

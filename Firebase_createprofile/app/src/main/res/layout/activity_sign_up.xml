@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saikrishna.inclass10.SignUpActivity">
+
+    <EditText
+        android:id="@+id/FirstNameSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="42dp"
+        android:ems="10"
+        android:hint="FirstName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/LastNameSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/FirstNameSignup"
+        android:layout_below="@+id/FirstNameSignup"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="LastName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/EmailSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/LastNameSignup"
+        android:layout_below="@+id/LastNameSignup"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/PasswordSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/EmailSignup"
+        android:layout_below="@+id/EmailSignup"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ConfirmPassSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/PasswordSignup"
+        android:layout_below="@+id/PasswordSignup"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Signup2Button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/ConfirmPassSignup"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/CancelButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="42dp"
+        android:text="Cancel"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

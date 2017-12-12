@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Inclass10</string>
+    <string name="TextHeading">Select your Avatar</string>
+    <string name="NameTextView" />
+    <string name="EmailTextView" />
+    <string name="DeptHeading">Department:</string>
+    <string name="MoodHeading">Your Current Mood:</string>
+    <string name="d_Name">Name:</string>
+    <string name="d_Email">Email:</string>
+    <string name="d_department">Department:</string>
+    <string name="d_mood">I am</string>
+    <string name="d1_name" />
+    <string name="d1_Email" />
+    <string name="d1_Dept" />
+    <string name="d1_mood" />
+</resources>
