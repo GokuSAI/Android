@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "559519289814",
+    "firebase_url": "https://signincheck-28b54.firebaseio.com",
+    "project_id": "signincheck-28b54",
+    "storage_bucket": "signincheck-28b54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559519289814:android:7b19641189bb7fbb",
+        "android_client_info": {
+          "package_name": "com.example.saikrishna.gsignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559519289814-d5oijaj39i9e4mlcvm93vk9jqlsghkga.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saikrishna.gsignin",
+            "certificate_hash": "d188b08809f73738ea3a576ac4308744abeae119"
+          }
+        },
+        {
+          "client_id": "559519289814-9nk3r670sjg095h0il9jul5p40205imm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxLuqOIzOXpNvzUo1NMcihGqHS0nxO42M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559519289814-9nk3r670sjg095h0il9jul5p40205imm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saikrishna.gsignin.ClickedUser">
+
+    <TextView
+        android:id="@+id/ClickedUserTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="26dp"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ClickedHomeImageview"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ClickedUserTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        app:srcCompat="@drawable/home" />
+
+    <TextView
+        android:id="@+id/ClickedPostsTextView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ClickedUserTextView"
+        android:layout_below="@+id/ClickedUserTextView"
+        android:layout_marginTop="23dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ClickedUserRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@+id/ClickedUserTextView"
+        android:layout_below="@+id/ClickedPostsTextView"
+        android:layout_marginTop="19dp" />
+</RelativeLayout>
