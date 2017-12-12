@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "315014272571",
+    "firebase_url": "https://notekeeper-e3590.firebaseio.com",
+    "project_id": "notekeeper-e3590",
+    "storage_bucket": "notekeeper-e3590.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315014272571:android:f5208c36d9dda01c",
+        "android_client_info": {
+          "package_name": "com.example.saikrishna.firebasenotekeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315014272571-c0bfptvnqdoqia8bbb3p79mi3g7m2h5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbH5vQf9aAlMwLccFEF2D04rSl3rCR1YI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
