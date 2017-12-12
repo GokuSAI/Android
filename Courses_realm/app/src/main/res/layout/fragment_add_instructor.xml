@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app.homework06.AddInstructor">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/Instructordp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        app:srcCompat="@drawable/addphoto"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/InstructorFirstName"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="First name"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/Instructordp"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/InstructorLastname"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/InstructorFirstName"
+        android:layout_below="@+id/InstructorFirstName"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Last name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/InstructorEmail"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/InstructorLastname"
+        android:layout_below="@+id/InstructorLastname"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/InstructorWebsite"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Personal website "
+        android:inputType="textPersonName"
+        android:layout_below="@+id/InstructorEmail"
+        android:layout_alignStart="@+id/InstructorEmail" />
+
+    <Button
+        android:id="@+id/InstructorRegisterButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_alignEnd="@+id/InstructorWebsite"
+        android:layout_below="@+id/InstructorWebsite"
+        android:layout_alignBottom="@+id/ResetInstructorButton" />
+
+    <Button
+        android:id="@+id/ResetInstructorButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/InstructorWebsite"
+        android:text="Reset"
+        android:layout_below="@+id/InstructorWebsite"/>
+
+
+</RelativeLayout>
+
+</FrameLayout>

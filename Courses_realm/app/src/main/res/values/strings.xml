@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HomeWork6</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="dayarray">
+        <item>Select</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+
+
+    </string-array>
+    <string-array name="timearray">
+        <item>Select</item>
+        <item>AM</item>
+        <item>PM</item>
+
+    </string-array>
+    <string-array name="semesterarray">
+        <item>Select Semester</item>
+        <item>Spring</item>
+        <item>Fall</item>
+        <item>Summer</item>
+
+    </string-array>
+</resources>

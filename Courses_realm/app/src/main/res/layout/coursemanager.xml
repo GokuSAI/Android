@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+
+    <ImageView
+        android:id="@+id/CourseManagerdp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="22dp"
+        app:srcCompat="@drawable/addphoto"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/InstructorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TitleTextView"
+        android:layout_below="@+id/TitleTextView"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/TimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:layout_below="@+id/InstructorTextView"
+        android:layout_alignStart="@+id/InstructorTextView" />
+
+    <TextView
+        android:id="@+id/TitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
+
+        android:text="TextView"
+        android:layout_alignTop="@+id/CourseManagerdp"
+        android:layout_toEndOf="@+id/CourseManagerdp" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+</RelativeLayout>

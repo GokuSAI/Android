@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app.homework06.Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/UsernameEdittext"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="29dp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/PasswordEdittext"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/UsernameEdittext"
+            android:layout_below="@+id/UsernameEdittext"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/LoginButton"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/PasswordEdittext"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:text="LogIn" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/LoginButton"
+            android:layout_below="@+id/LoginButton"
+            android:layout_marginTop="8dp"
+            android:text="Not Registered?" />
+
+        <TextView
+            android:id="@+id/SignupTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2"
+            android:text="SignUp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</FrameLayout>

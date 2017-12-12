@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.app.homework06.InstructorsDisplayFragment">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+
+      <TextView
+          android:id="@+id/textView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="List of Instructors:"
+          android:textSize="20sp"
+          android:layout_marginTop="15dp"
+          android:layout_marginLeft="15dp"
+          android:textStyle="bold" />
+
+      <android.support.v7.widget.RecyclerView
+          android:id="@+id/Instructor_recycler_view"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_alignStart="@+id/textView4"
+          android:layout_below="@+id/textView4"
+          android:layout_marginTop="25dp" />
+
+
+   </RelativeLayout>
+
+
+</FrameLayout>
