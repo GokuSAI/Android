@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">iTunes Top Paid Apps</string>
+    <string name="NoFilter">There is no filtered apps to display.</string>
+    <string name="FilterApps">Filtered Apps</string>
+</resources>
