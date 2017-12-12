@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saikrishna.bmi.MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/heading"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/weightheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/heading"
+        android:layout_alignStart="@+id/heading"
+        android:layout_below="@+id/heading"
+        android:layout_marginTop="15dp"
+        android:text="@string/weightheading"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/weightheading"
+        android:layout_alignStart="@+id/weightheading"
+        android:layout_below="@+id/weightheading"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/weightInput" />
+
+    <TextView
+        android:id="@+id/heightHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/weightInput"
+        android:layout_alignStart="@+id/weightInput"
+        android:layout_below="@+id/weightInput"
+        android:layout_marginTop="15dp"
+        android:text="@string/heightHeading"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/heightFeet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/weightInput"
+        android:layout_alignRight="@+id/weightInput"
+        android:layout_below="@+id/heightHeading"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/heightFeet" />
+
+    <EditText
+        android:id="@+id/heightInches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/heightFeet"
+        android:layout_alignRight="@+id/heightFeet"
+        android:layout_below="@+id/heightFeet"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/heightInches" />
+
+    <TextView
+        android:id="@+id/weightSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/weightInput"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/heading"
+        android:layout_toRightOf="@+id/heading"
+        android:text="@string/weightSub"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/heightSub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/weightSub"
+        android:layout_alignStart="@+id/weightSub"
+        android:layout_alignTop="@+id/heightFeet"
+        android:layout_marginTop="15dp"
+        android:text="@string/heightSub1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/heightsub2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/heightSub1"
+        android:layout_alignStart="@+id/heightSub1"
+        android:layout_alignTop="@+id/heightInches"
+        android:layout_marginTop="15dp"
+        android:text="@string/heightsub2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/calculate"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/heightInches"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/Display1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calculate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/Display1"
+        android:textSize="20sp"
+        android:ems="10"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Display2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Display1"
+        android:layout_alignRight="@+id/Display1"
+        android:layout_below="@+id/Display1"
+        android:layout_marginTop="36dp"
+        android:text="@string/Display2"
+        android:textSize="20sp"
+        android:ems="10"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

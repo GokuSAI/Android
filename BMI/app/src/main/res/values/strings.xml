@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="heading">Body Mass Index(BMI)</string>
+    <string name="weightheading">WEIGHT</string>
+    <string name="weightInput"></string>
+    <string name="heightHeading">Height</string>
+    <string name="heightFeet"></string>
+    <string name="heightInches" ></string>
+    <string name="weightSub">lb</string>
+    <string name="heightSub1">feet</string>
+    <string name="heightsub2">inches</string>
+    <string name="calculate">CALCULATE BMI</string>
+
+    <string name="Display1" />
+    <string name="Display2" />
+</resources>
