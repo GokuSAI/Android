@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">JTrivia</string>
+    <string name="welcome">Welcome to \n Trivia App</string>
+    <string name="exit">Exit</string>
+    <string name="start">Start Trivia</string>
+    <string name="ready">Trivia Ready</string>
+    <string name="loading">Loading Trivia</string>
+    <string name="timeLeft">Time Left:</string>
+    <string name="time">120 seconds</string>
+    <string name="quit">Quit</string>
+    <string name="next">Next</string>
+    <string name="stats">Trivia Stats</string>
+    <string name="correct">Correct Answers</string>
+    <string name="tryagain">Try Again</string>
+    <string name="text">Try again and see if you can get \n all the correct answers!</string>
+    <string name="loadingImg">Loading Image</string>
+    <string name="FinalText">Congratulations! you \'ve got all correct !</string>
+</resources>
