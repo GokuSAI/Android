@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CNN News</string>
+    <string name="getNewsButton">Get News</string>
+    <string name="finishButton">Finish</string>
+</resources>
