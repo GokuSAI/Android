@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1092718563004",
+    "firebase_url": "https://inclass10-10bf3.firebaseio.com",
+    "project_id": "inclass10-10bf3",
+    "storage_bucket": "inclass10-10bf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092718563004:android:20ded3c91d116d7b",
+        "android_client_info": {
+          "package_name": "com.example.saikrishna.contactsfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092718563004-c6h6vph47ov3p00imalomfok6c94mqvq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saikrishna.contactsfirebase",
+            "certificate_hash": "d188b08809f73738ea3a576ac4308744abeae119"
+          }
+        },
+        {
+          "client_id": "1092718563004-efb03vnki4kba1moeoprvhndgb8gdodh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpdd2xVy0YXVdzWetPcSsR1LKK-JbojwE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092718563004-efb03vnki4kba1moeoprvhndgb8gdodh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saikrishna.contactsfirebase.CreateNewContact">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/UserDp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/addphoto"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/NewUserFirstName"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="First name"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/UserDp"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/NewUserLastName"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/NewUserFirstName"
+            android:layout_below="@+id/NewUserFirstName"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Last name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/NewUSerEmail"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/NewUserLastName"
+            android:layout_below="@+id/NewUserLastName"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/NewUserPhone"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="number"
+            android:layout_below="@+id/NewUSerEmail"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/UserSubmitButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/UserDp"
+            android:layout_below="@+id/NewUserPhone"
+            android:layout_marginTop="37dp"
+            android:text="Submit" />
+
+    </RelativeLayout>
+</RelativeLayout>
