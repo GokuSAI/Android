@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/MessageContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="21dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/MessageContent"
+        android:layout_below="@+id/MessageContent"
+        android:layout_marginTop="25dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/TimeTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Sender"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="45dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/TimeTextview"
+        android:layout_alignTop="@+id/MessageContent"
+         />
+</RelativeLayout>
