@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Favorite Movies</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add_movie">Add Movie</string>
+    <string name="edit_movie">Edit</string>
+    <string name="edit_movie_heading">Edit Movie</string>
+    <string name="delete_movie">Delete Movie</string>
+    <string name="movies_by_year">Movies by Year</string>
+    <string name="movies_by_rating">Movies by Rating</string>
+    <string name="list_by_year">Show List by Year</string>
+    <string name="list_by_rating">Show List by Rating</string>
+    <string name="name">Name:</string>
+    <string name="description">Description:</string>
+    <string name="genre">Genre:</string>
+    <string name="rating">Rating:</string>
+    <string name="year">Year:</string>
+    <string name="imdb">IMDB:</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="title">Title:</string>
+    <string name="finish">Finish</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

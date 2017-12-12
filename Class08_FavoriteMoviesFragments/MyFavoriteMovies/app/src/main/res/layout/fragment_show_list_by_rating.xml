@@ -1,0 +1,216 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.uncc.myfavoritemovies.ShowListByRating">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_movies_by_rating"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="edu.uncc.moviedictionary.MoviesByRatingActivity">
+
+        <TextView
+            android:text="@string/movies_by_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMoviesByYear"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="@string/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMoviesByYear"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="25dp"
+            android:id="@+id/tvTitle"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvTitle"
+            android:layout_alignLeft="@+id/tvMoviesByYear"
+            android:layout_alignStart="@+id/tvMoviesByYear"
+            android:id="@+id/tvTitleValue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="75dp"
+            android:ems="10"
+            android:layout_below="@+id/tvDescription"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="14dp"
+            android:id="@+id/etDescriptionValue"
+            android:scrollIndicators="right"
+            android:background="@drawable/textboxborder"
+            android:scrollbars = "vertical"
+            android:gravity="top" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvGenre"
+            android:layout_alignLeft="@+id/tvTitleValue"
+            android:layout_alignStart="@+id/tvTitleValue"
+            android:id="@+id/tvGenreValue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/vtRating"
+            android:layout_alignLeft="@+id/tvGenreValue"
+            android:layout_alignStart="@+id/tvGenreValue"
+            android:id="@+id/tvRatingValue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="@string/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/vtRating"
+            android:textSize="18sp"
+            android:lineSpacingExtra="18sp"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/tvGenre"
+            android:layout_alignLeft="@+id/tvGenre"
+            android:layout_alignStart="@+id/tvGenre" />
+
+        <TextView
+            android:text="@string/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tvYear"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/vtRating"
+            android:layout_alignLeft="@+id/vtRating"
+            android:layout_alignStart="@+id/vtRating" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvYear"
+            android:layout_alignLeft="@+id/tvRatingValue"
+            android:layout_alignStart="@+id/tvRatingValue"
+            android:id="@+id/tvYearValue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="@string/imdb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvYear"
+            android:layout_alignLeft="@+id/tvYear"
+            android:layout_alignStart="@+id/tvYear"
+            android:layout_marginTop="14dp"
+            android:id="@+id/tvIMDB"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvIMDB"
+            android:layout_alignLeft="@+id/tvYearValue"
+            android:layout_alignStart="@+id/tvYearValue"
+            android:id="@+id/tvIMDBValue"
+            android:textSize="18sp" />
+
+        <TextView
+            android:text="@string/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:id="@+id/tvDescription"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/tvTitle"
+            android:layout_alignLeft="@+id/tvTitle"
+            android:layout_alignStart="@+id/tvTitle" />
+
+        <TextView
+            android:text="@string/genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvGenre"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:layout_below="@+id/etDescriptionValue"
+            android:layout_alignLeft="@+id/etDescriptionValue"
+            android:layout_alignStart="@+id/etDescriptionValue"
+            android:layout_marginTop="20dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/first"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/tvIMDB"
+            android:layout_alignStart="@+id/tvIMDB"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/btnFirst"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/next"
+            android:id="@+id/btnNext"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_alignTop="@+id/btnFinish"
+            android:layout_toRightOf="@+id/btnFinish"
+            android:layout_toEndOf="@+id/btnFinish"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/last"
+            android:layout_alignTop="@+id/btnNext"
+            android:layout_toRightOf="@+id/tvIMDBValue"
+            android:layout_toEndOf="@+id/tvIMDBValue"
+            android:id="@+id/btnLast"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+        <Button
+            android:text="@string/finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFinish"
+            android:layout_alignTop="@+id/btnPrevious"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/previous"
+            android:id="@+id/btnPrevious"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_alignTop="@+id/btnFirst"
+            android:layout_toRightOf="@+id/btnFirst"
+            android:layout_toEndOf="@+id/btnFirst" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

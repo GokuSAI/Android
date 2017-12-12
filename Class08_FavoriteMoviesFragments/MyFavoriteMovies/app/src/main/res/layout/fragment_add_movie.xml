@@ -1,0 +1,182 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.uncc.myfavoritemovies.AddMovieFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvName"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:id="@+id/etName"
+            android:layout_alignBaseline="@+id/tvName"
+            android:layout_alignBottom="@+id/tvName"
+            android:layout_toRightOf="@+id/tvName"
+            android:maxLength="@integer/movie_name_length" />
+
+        <TextView
+            android:text="@string/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etName"
+            android:layout_alignLeft="@+id/tvName"
+            android:layout_alignStart="@+id/tvName"
+            android:layout_marginTop="12dp"
+            android:id="@+id/tvDescription"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:layout_below="@+id/tvDescription"
+            android:layout_alignLeft="@+id/tvDescription"
+            android:layout_alignStart="@+id/tvDescription"
+            android:layout_marginTop="15dp"
+            android:id="@+id/etDescription"
+            android:layout_alignRight="@+id/spGenre"
+            android:layout_alignEnd="@+id/spGenre"
+            android:maxLength="@integer/movie_desc_length"
+            android:background="@drawable/textboxborder"
+            android:scrollbars = "vertical"
+            android:gravity="top" />
+
+        <TextView
+            android:text="@string/genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etDescription"
+            android:layout_alignStart="@+id/etDescription"
+            android:layout_below="@id/etDescription"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvGenre"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:layout_centerVertical="true" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvGenre"
+            android:layout_alignLeft="@+id/etName"
+            android:layout_alignStart="@+id/etName"
+            android:id="@+id/spGenre"
+            android:layout_alignRight="@+id/etName"
+            android:layout_alignEnd="@+id/etName"
+            android:textColor="#000000"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:text="@string/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spGenre"
+            android:layout_alignLeft="@+id/tvGenre"
+            android:layout_alignStart="@+id/tvGenre"
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvRating"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvRating"
+            android:layout_alignLeft="@+id/spGenre"
+            android:layout_alignStart="@+id/spGenre"
+            android:id="@+id/sbRating"
+            android:layout_alignRight="@+id/btnSaveMovie"
+            android:layout_alignEnd="@+id/btnSaveMovie" />
+
+        <TextView
+            android:text="@string/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvRating"
+            android:layout_alignLeft="@+id/tvRating"
+            android:layout_alignStart="@+id/tvRating"
+            android:layout_marginTop="23dp"
+            android:id="@+id/tvYear"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etYear"
+            android:textSize="18sp"
+            android:layout_alignBaseline="@+id/tvYear"
+            android:layout_alignBottom="@+id/tvYear"
+            android:layout_alignLeft="@+id/sbRating"
+            android:layout_alignStart="@+id/sbRating" />
+
+        <TextView
+            android:text="@string/imdb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:id="@+id/tvIMDB"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:layout_below="@+id/etYear"
+            android:layout_alignLeft="@+id/tvYear"
+            android:layout_alignStart="@+id/tvYear" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textUri"
+            android:ems="10"
+            android:layout_below="@+id/etYear"
+            android:layout_alignLeft="@+id/etYear"
+            android:layout_alignStart="@+id/etYear"
+            android:layout_marginTop="11dp"
+            android:id="@+id/etIMDB" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/sbRating"
+            android:id="@+id/tvRatingDisplay"
+            android:text="0"
+            android:layout_toRightOf="@+id/etYear" />
+
+        <Button
+            android:text="@string/add_movie"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSaveMovie"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/etIMDB"
+            android:layout_toRightOf="@+id/tvIMDB"
+            android:layout_toEndOf="@+id/tvIMDB" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

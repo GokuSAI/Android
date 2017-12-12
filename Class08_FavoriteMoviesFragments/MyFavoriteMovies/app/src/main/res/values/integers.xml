@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="movie_name_length">50</integer>
+    <integer name="movie_desc_length">1000</integer>
+</resources>

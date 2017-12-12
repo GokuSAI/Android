@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.uncc.myfavoritemovies.MainFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="@string/edit_movie"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSaveMovie"
+            android:layout_alignLeft="@+id/btnSaveMovie"
+            android:layout_alignStart="@+id/btnSaveMovie"
+            android:layout_marginTop="19dp"
+            android:id="@+id/btnEditMovie" />
+
+        <Button
+            android:text="@string/delete_movie"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnEditMovie"
+            android:layout_alignLeft="@+id/btnEditMovie"
+            android:layout_alignStart="@+id/btnEditMovie"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnDeleteMovie" />
+
+        <Button
+            android:text="@string/list_by_rating"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnListbyYear"
+            android:layout_alignRight="@+id/btnListbyYear"
+            android:layout_alignEnd="@+id/btnListbyYear"
+            android:layout_marginTop="24dp"
+            android:id="@+id/btnListbyRating" />
+
+        <Button
+            android:text="@string/list_by_year"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:id="@+id/btnListbyYear"
+            android:layout_below="@+id/btnDeleteMovie"
+            android:layout_alignLeft="@+id/btnDeleteMovie"
+            android:layout_alignStart="@+id/btnDeleteMovie" />
+
+        <Button
+            android:text="@string/add_movie"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="76dp"
+            android:id="@+id/btnSaveMovie"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</FrameLayout>
