@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saikrishna.passgenerator.MainActivity">
+
+
+    <TextView
+        android:id="@+id/ThreadHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="53dp"
+        android:text="@string/ThreadHeading"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/sub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ThreadHeading"
+        android:layout_alignStart="@+id/ThreadHeading"
+        android:layout_below="@+id/ThreadHeading"
+        android:layout_marginTop="13dp"
+        android:text="@string/sub1" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sub1"
+        android:layout_alignStart="@+id/sub1"
+        android:layout_below="@+id/sub1"
+        android:layout_marginTop="8dp"
+        android:max="11"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/Count1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/sub1"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:text="@string/Count1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seekBar"
+        android:layout_alignStart="@+id/seekBar"
+        android:layout_below="@+id/seekBar"
+        android:layout_marginTop="8dp"
+        android:text="@string/sub2" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="8dp"
+        android:max="16"
+        android:progress="0"
+         />
+
+    <TextView
+        android:id="@+id/Count2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Count1"
+        android:layout_alignRight="@+id/Count1"
+        android:layout_alignTop="@+id/textView4"
+        android:text="@string/Count2" />
+
+    <TextView
+        android:id="@+id/AsyncHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seekBar2"
+        android:layout_alignStart="@+id/seekBar2"
+        android:layout_centerVertical="true"
+        android:text="@string/AsyncHeading" />
+
+    <TextView
+        android:id="@+id/sub3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/sub3"
+        android:layout_below="@+id/AsyncHeading"
+        android:layout_alignLeft="@+id/AsyncHeading"
+        android:layout_alignStart="@+id/AsyncHeading" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sub3"
+        android:layout_alignStart="@+id/sub3"
+        android:layout_below="@+id/sub3"
+        android:layout_marginTop="15dp"
+        android:max="11"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/sub4"
+        android:layout_below="@+id/seekBar3"
+        android:layout_alignLeft="@+id/seekBar3"
+        android:layout_alignStart="@+id/seekBar3" />
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="8dp"
+        android:max="16"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/Count3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Count2"
+        android:layout_alignRight="@+id/Count2"
+        android:layout_alignTop="@+id/sub3"
+        android:text="@string/Count3" />
+
+    <TextView
+        android:id="@+id/Count4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Count3"
+        android:layout_alignRight="@+id/Count3"
+        android:layout_alignTop="@+id/textView8"
+        android:text="@string/Count4" />
+
+    <Button
+        android:id="@+id/Generate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:layout_toEndOf="@+id/AsyncHeading"
+        android:layout_toRightOf="@+id/AsyncHeading"
+        android:text="@string/Generate" />
+</RelativeLayout>

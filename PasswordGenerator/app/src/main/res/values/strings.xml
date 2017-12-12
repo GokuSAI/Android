@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PassGenerator</string>
+    <string name="ThreadHeading">For Threads :</string>
+    <string name="sub1">Select Password Count:</string>
+    <string name="Count1" />
+    <string name="sub2">Select Password Length :</string>
+    <string name="Count2" />
+    <string name="AsyncHeading">For Async Tasks:</string>
+    <string name="sub3">Select Password Count :</string>
+    <string name="sub4">Select password Length :</string>
+    <string name="Count3" />
+    <string name="Count4" />
+    <string name="Generate">Generate</string>
+</resources>
