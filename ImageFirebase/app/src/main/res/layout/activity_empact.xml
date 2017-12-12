@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saikrishna.imagefirebase.empact">
+    <Button
+        android:id="@+id/UploadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="218dp"
+        android:layout_marginStart="128dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/URLTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/UploadButton"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="92dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/UploadButton"
+        android:layout_marginTop="53dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/OverlayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignEnd="@+id/UploadButton"
+        android:layout_marginBottom="13dp"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/UploadButton"
+        android:layout_alignStart="@+id/URLTextView"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</RelativeLayout>
