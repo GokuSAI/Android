@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="31dp"
+        app:srcCompat="@drawable/add"
+
+        android:layout_below="@+id/TitleTextView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Ingredients:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp" />
+
+    <TextView
+        android:id="@+id/IngredientsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="23dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IngredientsTextView"
+        android:layout_marginTop="20dp"
+        android:text="URL:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/IngredientsTextView" />
+
+    <TextView
+        android:id="@+id/UrlTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="TextView"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/TitleTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+
+        android:text="Title:"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/TitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:text="TextView" />
+
+
+
+</RelativeLayout>
