@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/Icon_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+    <TextView
+        android:id="@+id/placelist_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Icon_imageview"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="31dp"
+        android:layout_toEndOf="@+id/Icon_imageview"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/Addtolist_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/placelist_textview"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark_focused" />
+</RelativeLayout>
